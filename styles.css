@@ -1,0 +1,20 @@
+.go {
+    color: green;
+}
+.stop {
+    color: rgb(0, 255, 42);
+}
+  
+body{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+    gap: 2rem;
+}
+
+#start,#stop{
+    padding: 0.5rem;
+    border-radius: 10px;
+}
